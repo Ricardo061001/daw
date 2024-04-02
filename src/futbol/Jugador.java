@@ -1,9 +1,9 @@
 package futbol;
 /**
  * Clase Jugador
- * @author Tu nombre
+ * @author ricardo
  * @version 1.0
- * @since 1.0
+ * @since 02/04/2024
  */
 public class Jugador {
     // Atributos
@@ -37,5 +37,4 @@ public class Jugador {
         return this.edad;
     }
 }
-
 
