@@ -5,6 +5,8 @@ package futbol;
  * @author Ricardo
  * @version 1.0
  * @since 02/04/2024
+ * @see Jugador
+ *
  */
 public class Equipo {
     // Atributos
