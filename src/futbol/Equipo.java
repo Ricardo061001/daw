@@ -30,5 +30,11 @@ public class Equipo {
         return this.nombre;
     }
 
-
+    /**
+     * Método para obtener los jugadores del equipo
+     * @return Los jugadores del equipo
+     */
+    public Jugador[] getJugadores() {
+        return this.jugadores;
+    }
 }
