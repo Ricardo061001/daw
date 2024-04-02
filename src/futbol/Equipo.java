@@ -5,7 +5,6 @@ package futbol;
  * @author Ricardo
  * @version 1.0
  * @since 02/04/2024
- * @see Jugador
  */
 public class Equipo {
     // Atributos
@@ -22,7 +21,14 @@ public class Equipo {
         this.jugadores = jugadores;
     }
 
-
+    // Métodos
+    /**
+     * Método para obtener el nombre del equipo
+     * @return El nombre del equipo
+     */
+    public String getNombre() {
+        return this.nombre;
+    }
 
 
 }
