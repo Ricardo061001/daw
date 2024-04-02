@@ -20,7 +20,14 @@ public class Jugador {
         this.edad = edad;
     }
 
-
+    // Métodos
+    /**
+     * Método para obtener el nombre del jugador
+     * @return El nombre del jugador
+     */
+    public String getNombre() {
+        return this.nombre;
+    }
 
 
 }
