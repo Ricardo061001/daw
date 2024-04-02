@@ -29,7 +29,13 @@ public class Jugador {
         return this.nombre;
     }
 
-
+    /**
+     * Método para obtener la edad del jugador
+     * @return La edad del jugador
+     */
+    public int getEdad() {
+        return this.edad;
+    }
 }
 
 
